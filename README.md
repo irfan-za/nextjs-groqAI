@@ -20,7 +20,7 @@ cd your-repo
 yarn
 ```
 
-3. creete `.env` file in the root folder with this value:
+3. create `.env` file in the root folder with this value:
 
 `
 GROQ_API_KEY= your_api_key
