@@ -22,7 +22,7 @@ yarn
 
 3. creete `.env` file in the root folder with this value:
 
-`bash
+`
 GROQ_API_KEY= your_api_key
 `
 
