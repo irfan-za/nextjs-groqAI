@@ -4,6 +4,7 @@ This is a Groq Next.js setup project with a simple chat form.
 
 ![Demo Image](https://github.com/irfan-za/nextjs-groqAI/blob/main/public/demo.png)
 To see the live website, click [here](https://nextjs-groqAI.vercel.app).
+
 To get started, follow these steps:
 
 1. Clone the repository:
@@ -16,17 +17,23 @@ git clone https://github.com/irfan-za/nextjs-groqAI.git
 
 ```bash
 cd your-repo
-npm install
+yarn
 ```
 
-3. Start the development server:
+3. creete `.env` file in the root folder with this value:
+
+`bash
+GROQ_API_KEY= your_api_key
+`
+
+4. Start the development server:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the app in action.
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the app in action.
 
-Feel free to modify the code in the `pages/index.js` file to customize the chat form according to your needs.
+Feel free to modify the code in the `app/page.js` file to customize the chat form according to your needs.
 
 Happy coding!
